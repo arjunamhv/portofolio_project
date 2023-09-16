@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Arjuna Mahavira</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="asset/browser_icon.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-info sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#landing">
+          <img
+            src="asset/browser_icon.jpg"
+            alt="icon"
+            style="border-radius: 50%; height: 1.5em"
+            class="d-inline-block align-text-top"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end -->
+
+    <section id="landing">
+      <div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="asset/landing1.png"
+                class="d-block w-100"
+                alt="landing image"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="asset/landing2.png"
+                class="d-block w-100"
+                alt="landing image"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="asset/landing3.png"
+                class="d-block w-100"
+                alt="landing image"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img
+              src="asset/aboutme.png"
+              alt="about_me"
+              class="my-5"
+              style="border-radius: 50%; width: 20em"
+            />
+          </div>
+          <div class="col my-auto">
+            <h1>Know me more!</h1>
+            <p>
+              I am a student at Informatics Engineering study program at
+              Semarang State University who is interested in web programming and
+              UI/UX design.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container text-center pt-5">
+        <h1>My Work</h1>
+        <p>Here are some of my work experiences</p>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col mb-5">
+            <div class="card mx-auto" style="width: 18rem; height: 31rem">
+              <img src="asset/work2.png" class="card-img-top" alt="work" />
+              <div class="card-body">
+                <h5 class="card-title">Co-Coordinator Media Mipafest 2.0</h5>
+                <p class="card-text">
+                  This event aims to introduce the Faculty of Mathematics and
+                  Natural Sciences to public, there are awardings to outstanding
+                  students and lecturers. We also brought guest stars Pertelon
+                  Koplo, Feby Putri, Juicy Luicy
+                  <a
+                    class="readmore"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    >Read more.</a
+                  >
+                </p>
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div
+                    class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+                  >
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Mipafest 2.0
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body text-start">
+                        <p>
+                          One of the biggest events at Semarang State University
+                          which is the culmination of the inauguration of
+                          welcoming new FMIPA students. This event aims to
+                          introduce the Faculty of Mathematics and Natural
+                          Sciences to the public with the performance of UKM/BSO
+                          in FMIPA, there are also awardings to outstanding
+                          students and lecturers. The event also brought guest
+                          stars Pertelon Koplo, Feby Putri, Juicy Luicy, and
+                          Ardhito Pramono.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end -->
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card mx-auto" style="width: 18rem; height: 31rem">
+              <img src="asset/work2.png" class="card-img-top" alt="work" />
+              <div class="card-body">
+                <h5 class="card-title">Creative Division PKKMB FMIPA 2022</h5>
+                <p class="card-text">
+                  This event introduce campus life for new students of the
+                  Faculty of Mathematics and Natural Sciences or called PKKMB
+                  FMIPA. is an activity to accelerate the adaptation process of
+                  new students to the environment around the faculty.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card mx-auto" style="width: 18rem; height: 31rem">
+              <img src="asset/work3.png" class="card-img-top" alt="work" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Staff Department of Media and Information BEM FMIPA 2022
+                </h5>
+                <p class="card-text">
+                  BEM FMIPA is a faculty-level student organization at UNNES
+                  that represents students within the Faculty of Mathematics and
+                  Natural Sciences
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="pb-5">
+      <div class="container text-center pt-5">
+        <h1>Contact Me</h1>
+        <p>Feel free to contact me!</p>
+      </div>
+      <div class="container text-start">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <form action="">
+              <div class="mb-3">
+                <label for="nameInput" class="form-label ps-1">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nameInput"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="emailInput" class="form-label ps-1"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emailInput"
+                  placeholder="Your Email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subjectInput" class="form-label ps-1"
+                  >Subject</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subjectInput"
+                  placeholder="Subject"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="messageInput" class="form-label ps-1"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary px-5">Send</button>
+            </form>
+          </div>
+          <div class="col" id="maps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5629014175574!2d106.65173227378303!3d-6.189197293798385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9c8db15827b%3A0x11a06cc3e36591f6!2sSubandriyo&#39;s%20House!5e0!3m2!1sid!2sid!4v1694890055727!5m2!1sid!2sid"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid bg-info text-center text-light p-3">
+        <p>© 2021 Arjuna Mahavira</p>
+        <a
+          href="https://github.com/arjunamhv"
+          target="_blank"
+          style="text-decoration: none"
+          class="text-light"
+          ><i class="fa-brands fa-github mx-1"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/arjunamhv"
+          target="_blank"
+          style="text-decoration: none"
+          class="text-light"
+          ><i class="fa-brands fa-linkedin mx-1"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/arjuna213"
+          target="_blank"
+          style="text-decoration: none"
+          class="text-light"
+          ><i class="fa-brands fa-instagram mx-1"></i
+        ></a>
+        <a
+          href="https://wa.me/+6285161085260"
+          target="_blank"
+          style="text-decoration: none"
+          class="text-light"
+          ><i class="fa-brands fa-whatsapp mx-1"></i
+        ></a>
+        <a
+          href="https://mailto:arjuna.mhv@gmail.com"
+          target="_blank"
+          style="text-decoration: none"
+          class="text-light"
+          ><i class="fa-regular fa-envelope mx-1"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

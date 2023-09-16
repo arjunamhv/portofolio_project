@@ -1,0 +1,21 @@
+.nav-item:hover{
+    background-color: #032830;
+    transition: 200ms ease-in-out;
+}
+
+section{
+    background-color: #ECF9FF;
+}
+.readmore:hover{
+    cursor: pointer;
+}
+
+#maps {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    #maps {
+        display: none;
+    }
+}
