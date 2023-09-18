@@ -97,9 +97,9 @@
                 alt="landing image"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
+                <h5>Welcome to My Portfolio!</h5>
                 <p>
-                  Some representative placeholder content for the first slide.
+                  Begin a captivating journey through my portfolio, where love and programming intersect beautifully, each project has a unique story waiting to be discovered.
                 </p>
               </div>
             </div>
@@ -110,9 +110,9 @@
                 alt="landing image"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
+                <h5>Code & Cupid</h5>
                 <p>
-                  Some representative placeholder content for the second slide.
+                  Witness the magic of coding and love coming together in perfect harmony, just like a match made in binary heaven.
                 </p>
               </div>
             </div>
@@ -123,9 +123,9 @@
                 alt="landing image"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
+                <h5>Coding Hearts</h5>
                 <p>
-                  Some representative placeholder content for the third slide.
+                  Discover the artistry in lines of code that mirror the dedication and precision of a heart deeply in love.
                 </p>
               </div>
             </div>
@@ -153,7 +153,7 @@
     </section>
 
     <section id="about">
-      <div class="container text-center pt-5" id="titleAbout">
+      <div class="container text-center pt-5 section-title" id="titleAbout">
         <h1>About Me</h1>
         <p>Let me introduce myself</p>
       </div>
@@ -170,10 +170,10 @@
           </div>
           <div class="col my-auto" id="animate-text">
             <h1>Know me more!</h1>
-            <p>
-              Hi!, I am Arjuna <br>I am a student at Informatics Engineering study program at
+            <p class="about-exp-item d-inline">
+              <span class="d-inline">Hi!, I am Arjuna<br>I am a student at Informatics Engineering study program at
               Semarang State University who is interested in web programming and
-              UI/UX design.
+              UI/UX design. </span><a class="readmore" id="readmore" onclick="Detail(event, this)"><br>Read more</a><span class="about-exp-item-detail"> I recently studied Fundamental Front-End Web Development I & II at coding studio course platform. and now, i'm making my own portofolio poject website. I want to become fullstack web developer, therefore i take this "Mahir Web Development" from codingstudio. I aso study at gits id with topic "Fullstack web develpper laravel" for 5 months duration. I hope someday i can built something with my skills to help people in need </span>
             </p>
           </div>
         </div>
@@ -181,7 +181,7 @@
     </section>
 
     <section id="work">
-      <div class="container text-center pt-5" id="titleWork">
+      <div class="container text-center pt-5 section-title" id="titleWork">
         <h1>My Work</h1>
         <p>Here are some of my work experiences</p>
       </div>
@@ -192,7 +192,9 @@
               <div class="flip-card-inner">
                 <div class="flip-card-front"></div>
                 <div class="card mx-auto flip-card-back shadow-lg" style="width: 18rem; height: 31rem">
-                  <img src="asset/work2.png" class="card-img-top" alt="work" />
+                  <div id="work-1" class="work-img-item">
+                    <img src="asset/work1.jpg" class="card-img-top" alt="work" />
+                  </div>
                   <div class="card-body">
                     <h5 class="card-title">Co-Coordinator Media Mipafest 2.0</h5>
                     <p class="card-text">
@@ -218,7 +220,9 @@
               <div class="flip-card-inner">
                 <div class="flip-card-front"></div>
                 <div class="card mx-auto flip-card-back shadow-lg" style="width: 18rem; height: 31rem">
-                  <img src="asset/work2.png" class="card-img-top" alt="work" />
+                  <div id="work-2" class="work-img-item">
+                    <img src="asset/work2.png" class="card-img-top" alt="work" />
+                  </div>
                   <div class="card-body">
                     <h5 class="card-title">Creative Division PKKMB FMIPA 2022</h5>
                     <p class="card-text">
@@ -237,7 +241,9 @@
               <div class="flip-card-inner">
                 <div class="flip-card-front"></div>
                 <div class="card mx-auto flip-card-back shadow-lg" style="width: 18rem; height: 31rem">
-                  <img src="asset/work3.png" class="card-img-top" alt="work" />
+                  <div id="work-3" class="work-img-item">
+                    <img src="asset/work3.png" class="card-img-top" alt="work" />
+                  </div>
                   <div class="card-body">
                     <h5 class="card-title">
                       Staff Department of Media and Information BEM FMIPA 2022
@@ -251,62 +257,62 @@
                 </div>
               </div>
             </div>
-            <!-- Modal -->
-            <div
-            class="modal fade"
-            id="exampleModal"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div
-              class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
-            >
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">
-                    Mipafest 2.0
-                  </h1>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body text-start">
-                  <p>
-                    One of the biggest events at Semarang State University
-                    which is the culmination of the inauguration of
-                    welcoming new FMIPA students. This event aims to
-                    introduce the Faculty of Mathematics and Natural
-                    Sciences to the public with the performance of UKM/BSO
-                    in FMIPA, there are also awardings to outstanding
-                    students and lecturers. The event also brought guest
-                    stars Pertelon Koplo, Feby Putri, Juicy Luicy, and
-                    Ardhito Pramono.
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end -->
           </div>
         </div>
       </div>
+      <!-- Modal -->
+      <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Mipafest 2.0
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-start">
+            <p>
+              One of the biggest events at Semarang State University
+              which is the culmination of the inauguration of
+              welcoming new FMIPA students. This event aims to
+              introduce the Faculty of Mathematics and Natural
+              Sciences to the public with the performance of UKM/BSO
+              in FMIPA, there are also awardings to outstanding
+              students and lecturers. The event also brought guest
+              stars Pertelon Koplo, Feby Putri, Juicy Luicy, and
+              Ardhito Pramono.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
     </section>
 
     <section id="contact" class="pb-5">
-      <div class="container text-center pt-5" id="titleContact">
+      <div class="container text-center pt-5 section-title" id="titleContact">
         <h1>Contact Me</h1>
         <p>Feel free to contact me!</p>
       </div>
