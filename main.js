@@ -69,3 +69,31 @@ function hideDetail(event, thisElement) {
     display: "none",
   });
 }
+
+function onFormSubmit(e) {
+  e.preventDefault();
+  const nama = $("#nameInput");
+  const email = $("#emailInput");
+  const subject = $("#subjectInput");
+  const message = $("#messageInput");
+
+  if ($(nama).val() == "") {
+    alert("Nama tidak boleh kosong");
+    return;
+  } else if ($(email).val() == "") {
+    alert("Email tidak boleh kosong");
+    return;
+  } else if ($(subject).val() == "") {
+    alert("Subject tidak boleh kosong");
+    return;
+  } else if ($(message).val() == "") {
+    alert("Message tidak boleh kosong");
+    return;
+  } else {
+    alert("Terima kasih telah menghubungi saya");
+    $(nama).val("");
+    $(email).val("");
+    $(subject).val("");
+    $(message).val("");
+  }
+}
